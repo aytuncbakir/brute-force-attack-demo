@@ -35,9 +35,9 @@ def data_leakage(guess):
 password = "aaa" 
 ###########################
 
-
-result_file_path = 'C:\\Users\\aytun\\Desktop\\CyberSecurity\\Brute Force Attack\\result.txt'
-secrets = 'C:\\Users\\aytun\\Desktop\\CyberSecurity\\Brute Force Attack\\secrets.txt'
+# Add your file path
+result_file_path = 'path-to-your-file \\result.txt'
+secrets = 'path-to-your-file\\secrets.txt'
 attempts, guess = bruteforce_attack(password)
 if guess: # if the password is correctly guess output number of guesses and password 
     print(f"\nPassword cracked in {attempts} attempts. The password is {guess}.")
